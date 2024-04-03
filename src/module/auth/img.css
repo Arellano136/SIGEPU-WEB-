@@ -1,0 +1,73 @@
+
+
+.fondo{
+    background-image: url("../../assets/img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+  }
+  
+  .wrapper {
+    position:relative;
+  }
+  
+  .icon {
+    height: 1.5rem;
+    width: 1.5rem;    
+    padding: 4px;
+    position: absolute;
+    box-sizing:border-box;
+    top:43%;
+    left:2px;
+    transform: translateY(-50%);
+    color: #a2160f94;
+  }
+  
+  .input {
+    height: 50px;
+    box-sizing:border-box;
+    padding-left: 2rem !important;
+  }
+  
+  .bg-img-red{
+    background-color: #a2160f94;
+  }
+  
+  nav div{
+    background-color: #a2160f !important;
+    border-radius: 0px !important;
+  }
+  
+  nav div ul li a{
+    color: white !important;
+  }
+  
+  nav div ul li a svg{
+    color: white !important;
+  }
+  
+  nav div ul li a:hover{
+    color:  #a2160f !important;
+  }
+  
+  nav div ul li a:hover svg{
+    color:  #a2160f !important;
+  }
+  
+  .img-menu{
+    height: 15% !important;
+  }
+  
+  .asi{
+    height: 85% !important;
+  }
+  
+  nav div div ul:first-child{
+    height: 90% !important;
+    overflow-y: auto;
+  }
+  
+  nav div div ul:nth-child(2){
+    height: 10% !important;
+  }
+  

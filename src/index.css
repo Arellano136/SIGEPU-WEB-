@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+aside {
+  background-color: #A2160F;
+  padding: 10px;
+  height: 100%;
+ }
+.flex {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+
+.nav-a:hover {
+    background-color: white !important;
+    color: #A2160F !important;
+}
+.Sidebar{
+  background-color: #A2160F;
+}
+.bg-red{
+  background-color: #A2160F;
+}
+.text-red{
+  background-color: #A2160F;
+}
+body{
+  font-family: 'Quicksand';
+}
+.card-img{
+  border-radius: 15px 15px 0px 0px;
+  height: 150px;
+  width: 100%;
+}
+.effect-shadow-div{
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: white;
+}
+.effect-shadow-td{
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: white;
+}
+.effect-shadow-input{
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    border: none;
+}
+.img-offcanvas{
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+ /* Estilos para la cabecera de la tabla */
+ thead tr th {
+  background-color: #a2160f;
+  color: white;
+}
+
+
+/* Estilos para las filas de la tabla al pasar el ratón */
+tbody tr:hover {
+  background-color: #fee2e2;
+}
+
+
+/* Estilos para el botón de estado */
+.status-btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+  font-weight: bold;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.status-btn.active {
+  color: green;
+  background-color:#daf9ee;
+ }
+
+
+.status-btn.inactive {
+  color: #A2160F;
+  background-color: #fee5ec;
+}
+/* Estilos para la cabecera de la tabla */
+thead tr th {
+  background-color: #a2160f;
+  color: white;
+}
+
+
+/* Estilos para las filas de la tabla al pasar el ratón */
+tbody tr:hover {
+  background-color: #fee2e2;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color:#A2160F;
+  color: #fff;
+}
+
+.pagination button.disabled {
+  background-color: #ccc;
+  color: #999;
+  cursor: not-allowed;
+}
